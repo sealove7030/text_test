@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body {
+  font-family: sans-serif;
+  line-height: 1.8;
+}
+
+.content {
+  max-width: 960px;
+  margin: 40px auto;
+}
+.content_2 {
+  max-width: 960px;
+  margin: 40px auto;
+}
+
+.float-img {
+  float: left;
+  width: 360px;
+  height: 360px;
+  /* 回り込み形状 */
+  shape-outside: circle(50%);
+  clip-path: circle(45%);
+  margin: 0 24px 16px 0;
+  
+}
+
+.float-img2 {
+  float: right;
+  width: 360px;
+  height: 360px;
+  /* 回り込み形状 */
+  shape-outside: circle(50%);
+  clip-path: circle(50%);
+  margin: 0 16px 16px 0;
+
+}
+
+
